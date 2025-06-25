@@ -18,74 +18,63 @@ const ProductsSection = () => {
   const products = [
     {
       id: 1,
-      name: "Классический жилет",
-      price: 4500,
-      originalPrice: 5500,
+      name: "Элегантные широкие брюки",
+      price: 4200,
+      originalPrice: 5200,
       image:
-        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=600&fit=crop",
-      colors: ["#000000", "#FFFFFF", "#808080", "#8B0000"],
+        "https://cdn.poehali.dev/files/7d4987ad-5094-408c-b21d-ff073a7b15a2.JPG",
+      colors: ["#000000"],
       sizes: ["36", "38", "40", "42", "44", "46"],
-      category: "Жилеты",
+      category: "Брюки",
       isNew: true,
       isSale: true,
     },
     {
       id: 2,
-      name: "Деловой пиджак",
-      price: 7800,
+      name: "Классический жилет",
+      price: 3800,
       image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop",
-      colors: ["#000000"],
-      sizes: ["38", "40", "42", "44", "46", "48", "50"],
-      category: "Пиджаки",
+        "https://cdn.poehali.dev/files/26e901f3-f80a-4025-aa13-24b8483b146d.JPG",
+      colors: ["#000000", "#8B4513"],
+      sizes: ["36", "38", "40", "42", "44"],
+      category: "Жилеты",
       isNew: true,
     },
     {
       id: 3,
-      name: "Классические брюки",
-      price: 3200,
+      name: "Стильный пиджак",
+      price: 6500,
       image:
-        "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400&h=600&fit=crop",
-      colors: ["#000000"],
-      sizes: ["38/158", "40/164", "42/170", "44/176"],
-      category: "Брюки",
+        "https://cdn.poehali.dev/files/a2b19506-647f-4b14-b423-bcdbe4b27cd3.JPG",
+      colors: ["#000000", "#4B0082"],
+      sizes: ["38", "40", "42", "44", "46", "48"],
+      category: "Пиджаки",
     },
     {
       id: 4,
-      name: "Элегантный жилет",
-      price: 5200,
+      name: "Деловой костюм",
+      price: 8900,
       image:
-        "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?w=400&h=600&fit=crop",
-      colors: ["#FFFFFF", "#808080", "#8B0000"],
-      sizes: ["36", "38", "40", "42"],
-      category: "Жилеты",
+        "https://cdn.poehali.dev/files/3b839ea2-7089-454f-84c5-3fc71af988df.JPG",
+      colors: ["#000000", "#2F4F4F"],
+      sizes: ["38", "40", "42", "44", "46"],
+      category: "Костюмы",
     },
     {
       id: 5,
-      name: "Строгий пиджак",
-      price: 8900,
-      originalPrice: 10200,
+      name: "Повседневный жилет",
+      price: 3200,
+      originalPrice: 4000,
       image:
-        "https://images.unsplash.com/photo-1617137968427-85924c800a22?w=400&h=600&fit=crop",
-      colors: ["#000000"],
-      sizes: ["40", "42", "44", "46"],
-      category: "Пиджаки",
+        "https://cdn.poehali.dev/files/2b018902-c4af-4098-aba5-73dc7ffbad3d.JPG",
+      colors: ["#8B4513", "#654321"],
+      sizes: ["36", "38", "40", "42"],
+      category: "Жилеты",
       isSale: true,
-    },
-    {
-      id: 6,
-      name: "Повседневные брюки",
-      price: 2800,
-      image:
-        "https://images.unsplash.com/photo-1506629905607-c28b47a40eb5?w=400&h=600&fit=crop",
-      colors: ["#000000"],
-      sizes: ["40/164", "42/170", "44/176", "46/182"],
-      category: "Брюки",
-      isNew: true,
     },
   ];
 
-  const categories = ["all", "Жилеты", "Пиджаки", "Брюки"];
+  const categories = ["all", "Жилеты", "Пиджаки", "Брюки", "Костюмы"];
   const colors = ["all", "Черный", "Белый", "Серый", "Бордовый"];
   const sizes = ["all", "36", "38", "40", "42", "44", "46", "48", "50"];
 
